@@ -1,0 +1,47 @@
+//breakpoints for responsiveness
+$xsmall: 0px;
+$small: 768px;
+$big: 1200px;
+$break-xsmall: "(min-width: #{$xsmall})";
+$break-small: "(min-width: #{$small})";
+$break-big: "(min-width: #{$big})";
+
+/* themes collections */
+
+$theme-blue: ( #38aff0, #fcbf5d, #ffffff, #383838, rgba(98, 98, 98, 0.26));
+$theme-brown: ( #c35115, #fcbf5d, #ffffff, #383838, rgba(98, 98, 98, 0.26));
+$theme-red: ( #f24f31, #f7ef35, #ffffff, #3c3434, rgba(98, 98, 98, 0.26));
+$theme-green: ( #209a67, #F4D03F, #ffffff, #08311b, rgba(98, 98, 98, 0.26));
+$theme-flat-zen: (#249991, #E76B6B, #FEFEFE, #224a6c, rgba(98, 98, 98, 0.26));
+//add more themes here please...
+
+/* badges collections 
+  Photoshop 1
+  Illustrator 2
+  Bootstrap 3
+  PHP 4
+  Java 5
+  Design 6
+  HTML 7
+  Anime 8
+  Movies 9
+  Varities 10
+  Javascript 11
+*/
+
+$badge-rainbow: ( #2d99d4, #F9690E, #ae1dc9, #1fc17d, #e85143, #4a4f53, #F4D03F, #1d689f, #0e761a, #9b9b15, #777e86);
+$badge-ugly-duckling: ( #BA5445, #BA5445, #BA5445, #BA5445, #BA5445, #BA5445, #BA5445, #BA5445, #BA5445, #BA5445, #BA5445);
+
+/* theme and badge color setup */
+
+$theme: $theme-flat-zen;
+$badge: $badge-rainbow;
+$badge-size: length($badge);
+
+/* color decisions */
+
+$primary: nth($theme, 1);
+$secondary: nth($theme, 2);
+$content: nth($theme, 3);
+$text: nth($theme, 4);
+$shadow: nth($theme, 5);

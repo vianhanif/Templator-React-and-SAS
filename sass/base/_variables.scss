@@ -1,0 +1,99 @@
+/*base and fonts*/
+
+$body-background: tint($primary, 90%);
+$mark-color: shade($primary, 10%);
+$mark-background: $content;
+$blockquote-footer-color: shade($primary, 10%);
+
+/*footer on desktop*/
+
+$panelfooter-background: $content;
+$panelfooter-footer-span-color: tint($text, 10%);
+$panelfooter-footer-span-link-color: (shade($primary, 5%), shade($primary, 20%));
+
+/*footer on mobile*/
+
+$panelfooter-mobile-background: shade($primary, 40%);
+$panelfooter-mobile-item-color: $content;
+$panelfooter-mobile-item-span-color: $content;
+$panelfooter-mobile-item-span-a-color: tint($primary, 25%);
+
+/* forms */
+
+$forms-shadow: shade($primary, 40%);
+$forms-shadow-focus: tint($secondary, 20%);
+$forms-placeholder: $primary;
+
+/* navbar */
+
+$navbar-background: $primary;
+$navbar-shadow: $shadow;
+$navbar-nav-li-a-color: $content;
+$navbar-nav-li-a-hover-background: $content;
+$navbar-nav-li-a-hover-color: $primary;
+$navbar-nav-active-a-background: $content;
+$navbar-nav-active-a-color: $primary;
+$navbar-nav-li-ul-background: $primary;
+$navbar-nav-li-ul-divider-background: $content;
+$navbar-nav-li-ul-li-a-hover-background: $content;
+$navbar-nav-li-ul-li-a-hover-color: $primary;
+$navbar-collapse-dropdown-toggle-background: $content;
+$navbar-collapse-dropdown-toggle-color: $primary;
+$navbar-collapse-dropdown-menu-lineborder: $content;
+$navbar-collapse-dropdown-menu-color: $content;
+$navbar-collapse-dropdown-menu-hover-background: $content;
+$navbar-collapse-dropdown-menu-hover-color: $primary;
+$navbar-form-background: shade($primary, 30%);
+$navbar-toggle-border: $content;
+$navbar-toggle-hover-background: shade($primary, 30%);
+$navbar-toggle-hover-color: $primary;
+$navbar-toggle-icon: $content;
+
+/* sidepanel */
+
+$sidepanel-collapse-background: $content;
+$sidepanel-collapse-list-group-item-lead: tint($text, 5%);
+$sidepanel-list-item-lead: $content;
+$sidepanel-list-title-background: darken($primary, 5%);
+$sidepanel-list-hello-background: $secondary;
+$sidepanel-list-hello-shadow: $secondary;
+$sidepanel-list-hello-lead: tint($text, 10%);
+$sidepanel-body-content-padding: 15px 0px 0px 0px;
+
+/* slider */
+
+$slider-item-a-color: tint($text, 20%);
+$slider-item-body-background: $content;
+$slider-media-text-max-height: 80px;
+$slider-media-heading-color: shade($text, 25%);
+$slider-media-body-p: tint($text, 10%);
+$slider-media-a-color: tint($primary, 10%);
+
+/* article */
+
+$panelarticle-default-shadow: $shadow;
+$panelarticle-default-link-color: tint($text, 20%);
+$panelarticle-default-body-background: $content;
+$panelarticle-default-heading-background: $content;
+$panelarticle-default-heading-lineborder: $primary;
+$panelarticle-default-heading-link-color: shade($primary, 30%);
+$panelarticle-default-li-text-color: tint($text, 20%);
+$panelarticle-footer-color: $primary;
+
+/* rencent */
+
+$block-small-article-footer-color: tint($text, 20%);
+$panel-small-article-background: $content;
+$panel-small-article-list-lineborder: tint($primary, 60%);
+$panel-small-article-media-link-color: $primary;
+
+/* tag */
+
+$tag-shadow: tint($shadow, 15%);
+
+/* pagination */
+
+$pagination-shadow: $shadow;
+$pagination-li-a-background: $content;
+$pagination-li-a-color: tint($text, 20%);
+$pagination-li-a-hover-background: $shadow;

@@ -1,0 +1,13 @@
+.form-group {
+  @include placeholder {
+    color: $forms-placeholder;
+  }
+  .form-control {
+    border: 0px;
+    border-radius: 2px;
+    box-shadow: 2px 2px .2px .2px $forms-shadow;
+    &:focus {
+      box-shadow: 0px 0px 3px 1px $forms-shadow-focus;
+    }
+  }
+}

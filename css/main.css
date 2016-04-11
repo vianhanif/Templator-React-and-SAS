@@ -1,0 +1,742 @@
+/* themes collections */
+/* badges collections 
+  Photoshop 1
+  Illustrator 2
+  Bootstrap 3
+  PHP 4
+  Java 5
+  Design 6
+  HTML 7
+  Anime 8
+  Movies 9
+  Varities 10
+  Javascript 11
+*/
+/* theme and badge color setup */
+/* color decisions */
+/*base and fonts*/
+/*footer on desktop*/
+/*footer on mobile*/
+/* forms */
+/* navbar */
+/* sidepanel */
+/* slider */
+/* article */
+/* rencent */
+/* tag */
+/* pagination */
+/* line 1, ../sass/base/_base.scss */
+body {
+  background: #e9f4f4;
+  overflow-x: hidden;
+}
+
+/* line 5, ../sass/base/_base.scss */
+.full-width {
+  padding: 0px;
+}
+
+/* line 8, ../sass/base/_base.scss */
+.panel-content-container {
+  margin-top: 50px;
+  margin-left: 1px;
+  width: 100%;
+  z-index: 1;
+  padding-top: 2%;
+  overflow: auto;
+}
+
+/* line 16, ../sass/base/_base.scss */
+.panel-collapse {
+  background: #fefefe;
+  visibility: hidden;
+  height: 0px;
+}
+
+/* line 21, ../sass/base/_base.scss */
+.lead {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* line 25, ../sass/base/_base.scss */
+mark {
+  color: #208982;
+  background-color: #fefefe;
+}
+
+/* line 29, ../sass/base/_base.scss */
+blockquote {
+  margin-bottom: 0px;
+  border: 0px;
+  padding-left: 0px;
+  padding-top: 5px;
+}
+/* line 34, ../sass/base/_base.scss */
+blockquote footer {
+  color: #208982;
+}
+
+/* line 38, ../sass/base/_base.scss */
+.list-group {
+  margin: 0px;
+}
+
+/* line 41, ../sass/base/_base.scss */
+.list-group-item {
+  border-radius: 0px !important;
+  border: 0px !important;
+  background: #fefefe;
+}
+
+/* line 1, ../sass/components/_footer.scss */
+.footer {
+  background: #fefefe;
+  box-shadow: none;
+  padding: 0px;
+}
+/* line 5, ../sass/components/_footer.scss */
+.footer span {
+  color: #385c7a;
+}
+/* line 7, ../sass/components/_footer.scss */
+.footer span b a, .footer span b .panel-navbar .navbar-nav > .active a:hover, .panel-navbar .navbar-nav > .active .footer span b a:hover, .footer span b .panel-navbar .navbar-nav > .active a:focus, .panel-navbar .navbar-nav > .active .footer span b a:focus, .footer span b .panel-navbar .navbar-nav > .active a:active, .panel-navbar .navbar-nav > .active .footer span b a:active, .footer span b .carousel .item a:hover, .carousel .item .footer span b a:hover, .footer span b .carousel .item .media a:hover, .carousel .item .media .footer span b a:hover {
+  color: #229189;
+}
+/* line 9, ../sass/components/_footer.scss */
+.footer span b a:hover, .footer span b .panel-navbar .navbar-nav > .active a:hover, .panel-navbar .navbar-nav > .active .footer span b a:hover, .footer span b .panel-navbar .navbar-nav > .active a:hover:focus, .panel-navbar .navbar-nav > .active .footer span b a:hover:focus, .footer span b .panel-navbar .navbar-nav > .active a:hover:active, .panel-navbar .navbar-nav > .active .footer span b a:hover:active, .footer span b .carousel .item a:hover, .carousel .item .footer span b a:hover, .footer span b .carousel .item .media a:hover, .carousel .item .media .footer span b a:hover {
+  color: #1c7a74;
+}
+
+/* line 15, ../sass/components/_footer.scss */
+.panel-footer-mobile {
+  visibility: visible;
+  background-color: #155b57;
+  border: 0px;
+  box-shadow: none;
+  height: 30px;
+}
+/* line 21, ../sass/components/_footer.scss */
+.panel-footer-mobile .list-group {
+  padding: 0px;
+  margin: 0px;
+}
+/* line 25, ../sass/components/_footer.scss */
+.panel-footer-mobile .list-group .list-group-item {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  box-shadow: none;
+  background: none;
+  border: 0px;
+  margin-top: 4px;
+  color: #fefefe;
+}
+/* line 34, ../sass/components/_footer.scss */
+.panel-footer-mobile .list-group .list-group-item span {
+  color: #fefefe;
+}
+/* line 36, ../sass/components/_footer.scss */
+.panel-footer-mobile .list-group .list-group-item span b a, .panel-footer-mobile .list-group .list-group-item span b .panel-navbar .navbar-nav > .active a:hover, .panel-navbar .navbar-nav > .active .panel-footer-mobile .list-group .list-group-item span b a:hover, .panel-footer-mobile .list-group .list-group-item span b .panel-navbar .navbar-nav > .active a:focus, .panel-navbar .navbar-nav > .active .panel-footer-mobile .list-group .list-group-item span b a:focus, .panel-footer-mobile .list-group .list-group-item span b .panel-navbar .navbar-nav > .active a:active, .panel-navbar .navbar-nav > .active .panel-footer-mobile .list-group .list-group-item span b a:active, .panel-footer-mobile .list-group .list-group-item span b .carousel .item a:hover, .carousel .item .panel-footer-mobile .list-group .list-group-item span b a:hover, .panel-footer-mobile .list-group .list-group-item span b .carousel .item .media a:hover, .carousel .item .media .panel-footer-mobile .list-group .list-group-item span b a:hover {
+  color: #5ab2ac;
+}
+
+/* line 7, ../sass/base/_mixins.scss */
+.form-group ::-webkit-input-placeholder {
+  color: #249991;
+}
+/* line 7, ../sass/base/_mixins.scss */
+.form-group :-moz-placeholder {
+  color: #249991;
+}
+/* line 7, ../sass/base/_mixins.scss */
+.form-group ::-moz-placeholder {
+  color: #249991;
+}
+/* line 7, ../sass/base/_mixins.scss */
+.form-group :-ms-placeholder {
+  color: #249991;
+}
+/* line 5, ../sass/components/_forms.scss */
+.form-group .form-control {
+  border: 0px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 0.2px 0.2px #155b57;
+}
+/* line 9, ../sass/components/_forms.scss */
+.form-group .form-control:focus {
+  box-shadow: 0px 0px 3px 1px #eb8888;
+}
+
+/* line 1, ../sass/components/_article.scss */
+.panel-default {
+  border: 0px;
+  border-radius: 0px;
+  width: 100%;
+  box-shadow: 0px 0px 2px 0.3px rgba(98, 98, 98, 0.26);
+}
+/* line 6, ../sass/components/_article.scss */
+.panel-default .panel-body {
+  background: #fefefe;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+/* line 11, ../sass/components/_article.scss */
+.panel-default .panel-heading {
+  background-color: #fefefe;
+  border-bottom: 1px solid #249991;
+}
+/* line 14, ../sass/components/_article.scss */
+.panel-default .panel-heading a, .panel-default .panel-heading .panel-navbar .navbar-nav > .active a:hover, .panel-navbar .navbar-nav > .active .panel-default .panel-heading a:hover, .panel-default .panel-heading .panel-navbar .navbar-nav > .active a:focus, .panel-navbar .navbar-nav > .active .panel-default .panel-heading a:focus, .panel-default .panel-heading .panel-navbar .navbar-nav > .active a:active, .panel-navbar .navbar-nav > .active .panel-default .panel-heading a:active, .panel-default .panel-heading .carousel .item a:hover, .carousel .item .panel-default .panel-heading a:hover, .panel-default .panel-heading .carousel .item .media a:hover, .carousel .item .media .panel-default .panel-heading a:hover {
+  color: #196b65;
+}
+/* line 16, ../sass/components/_article.scss */
+.panel-default .panel-heading a:hover, .panel-default .panel-heading .panel-navbar .navbar-nav > .active a:hover, .panel-navbar .navbar-nav > .active .panel-default .panel-heading a:hover, .panel-default .panel-heading .panel-navbar .navbar-nav > .active a:hover:focus, .panel-navbar .navbar-nav > .active .panel-default .panel-heading a:hover:focus, .panel-default .panel-heading .panel-navbar .navbar-nav > .active a:hover:active, .panel-navbar .navbar-nav > .active .panel-default .panel-heading a:hover:active, .panel-default .panel-heading .carousel .item a:hover, .carousel .item .panel-default .panel-heading a:hover, .panel-default .panel-heading .carousel .item .media a:hover, .carousel .item .media .panel-default .panel-heading a:hover {
+  text-decoration: underline;
+}
+/* line 21, ../sass/components/_article.scss */
+.panel-default a, .panel-default .panel-navbar .navbar-nav > .active a:hover, .panel-navbar .navbar-nav > .active .panel-default a:hover, .panel-default .panel-navbar .navbar-nav > .active a:focus, .panel-navbar .navbar-nav > .active .panel-default a:focus, .panel-default .panel-navbar .navbar-nav > .active a:active, .panel-navbar .navbar-nav > .active .panel-default a:active, .panel-default .carousel .item a:hover, .carousel .item .panel-default a:hover, .panel-default .carousel .item .media a:hover, .carousel .item .media .panel-default a:hover {
+  text-decoration: none;
+  color: #4e6e89;
+}
+/* line 26, ../sass/components/_article.scss */
+.panel-default .article-img img {
+  visibility: visible;
+  height: inherit;
+  max-height: 400px;
+  border-radius: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+/* line 36, ../sass/components/_article.scss */
+.panel-default p {
+  color: #4e6e89;
+}
+
+/* line 40, ../sass/components/_article.scss */
+.panel-wide {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+/* line 44, ../sass/components/_article.scss */
+.article-text-short {
+  max-height: 140px;
+  overflow: hidden;
+}
+
+/* line 48, ../sass/components/_article.scss */
+.article-text-long {
+  max-height: 200px;
+  overflow: hidden;
+}
+
+/* line 52, ../sass/components/_article.scss */
+.article-text-full {
+  overflow: visible;
+}
+
+/* line 55, ../sass/components/_article.scss */
+.article-footer a, .article-footer .panel-navbar .navbar-nav > .active a:hover, .panel-navbar .navbar-nav > .active .article-footer a:hover, .article-footer .panel-navbar .navbar-nav > .active a:focus, .panel-navbar .navbar-nav > .active .article-footer a:focus, .article-footer .panel-navbar .navbar-nav > .active a:active, .panel-navbar .navbar-nav > .active .article-footer a:active, .article-footer .carousel .item a:hover, .carousel .item .article-footer a:hover, .article-footer .carousel .item .media a:hover, .carousel .item .media .article-footer a:hover {
+  color: #249991;
+}
+/* line 57, ../sass/components/_article.scss */
+.article-footer a:hover, .article-footer .panel-navbar .navbar-nav > .active a:hover, .panel-navbar .navbar-nav > .active .article-footer a:hover, .article-footer .panel-navbar .navbar-nav > .active a:hover:focus, .panel-navbar .navbar-nav > .active .article-footer a:hover:focus, .article-footer .panel-navbar .navbar-nav > .active a:hover:active, .panel-navbar .navbar-nav > .active .article-footer a:hover:active, .article-footer .carousel .item a:hover, .carousel .item .article-footer a:hover, .article-footer .carousel .item .media a:hover, .carousel .item .media .article-footer a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* line 1, ../sass/components/_navbar.scss */
+.full-nav {
+  min-width: 100%;
+}
+
+/* line 4, ../sass/components/_navbar.scss */
+.panel-navbar {
+  margin-top: 0px;
+  background: #249991;
+  z-index: 10;
+  padding-left: 0px;
+  padding-right: 0px;
+  border: 0px;
+  border-radius: 0px;
+  box-shadow: 0px 0px 3px 1px rgba(98, 98, 98, 0.26);
+}
+/* line 13, ../sass/components/_navbar.scss */
+.panel-navbar .navbar-default {
+  z-index: 10;
+}
+/* line 16, ../sass/components/_navbar.scss */
+.panel-navbar .navbar-brand, .panel-navbar .navbar-brand:hover {
+  color: #fefefe;
+}
+/* line 22, ../sass/components/_navbar.scss */
+.panel-navbar .navbar-float-left {
+  margin-left: -15px;
+}
+/* line 26, ../sass/components/_navbar.scss */
+.panel-navbar .navbar-nav > li > a, .panel-navbar .navbar-nav > .active .navbar-nav > li > a:hover, .panel-navbar .navbar-nav > .active .navbar-nav > li > a:focus, .panel-navbar .navbar-nav > .active .navbar-nav > li > a:active, .panel-navbar .carousel .item .navbar-nav > li > a:hover, .carousel .item .panel-navbar .navbar-nav > li > a:hover, .panel-navbar .carousel .item .media .navbar-nav > li > a:hover, .carousel .item .media .panel-navbar .navbar-nav > li > a:hover {
+  font-size: 15px;
+  color: #fefefe;
+}
+/* line 31, ../sass/components/_navbar.scss */
+.panel-navbar .navbar-nav > li > a:hover, .panel-navbar .navbar-nav > .active .navbar-nav > li > a:hover, .panel-navbar .navbar-nav > .active .navbar-nav > li > a:hover:focus, .panel-navbar .navbar-nav > .active .navbar-nav > li > a:hover:active, .panel-navbar .carousel .item .navbar-nav > li > a:hover, .carousel .item .panel-navbar .navbar-nav > li > a:hover, .panel-navbar .carousel .item .media .navbar-nav > li > a:hover, .carousel .item .media .panel-navbar .navbar-nav > li > a:hover, .panel-navbar .navbar-nav > li > a:active, .panel-navbar .navbar-nav > .active .navbar-nav > li > a:active:hover, .panel-navbar .navbar-nav > .active .navbar-nav > li > a:active:focus, .panel-navbar .navbar-nav > .active .navbar-nav > li > a:active, .panel-navbar .carousel .item .navbar-nav > li > a:active:hover, .carousel .item .panel-navbar .navbar-nav > li > a:active:hover, .panel-navbar .carousel .item .media .navbar-nav > li > a:active:hover, .carousel .item .media .panel-navbar .navbar-nav > li > a:active:hover, .panel-navbar .navbar-nav > li > a:focus, .panel-navbar .navbar-nav > .active .navbar-nav > li > a:focus:hover, .panel-navbar .navbar-nav > .active .navbar-nav > li > a:focus, .panel-navbar .navbar-nav > .active .navbar-nav > li > a:focus:active, .panel-navbar .carousel .item .navbar-nav > li > a:focus:hover, .carousel .item .panel-navbar .navbar-nav > li > a:focus:hover, .panel-navbar .carousel .item .media .navbar-nav > li > a:focus:hover, .carousel .item .media .panel-navbar .navbar-nav > li > a:focus:hover {
+  background: #fefefe;
+  color: #249991;
+}
+/* line 36, ../sass/components/_navbar.scss */
+.panel-navbar .navbar-nav > .active a, .panel-navbar .navbar-nav > .active a:hover, .panel-navbar .navbar-nav > .active a:focus, .panel-navbar .navbar-nav > .active a:active, .panel-navbar .navbar-nav > .active .carousel .item a:hover, .carousel .item .panel-navbar .navbar-nav > .active a:hover, .panel-navbar .navbar-nav > .active .carousel .item .media a:hover, .carousel .item .media .panel-navbar .navbar-nav > .active a:hover {
+  background: #fefefe;
+  color: #249991;
+  font-weight: bold;
+}
+/* line 46, ../sass/components/_navbar.scss */
+.panel-navbar .navbar-nav > li ul {
+  border: 0px;
+  background: #249991;
+  box-shadow: 0px 0px 2px 1px rgba(98, 98, 98, 0.26);
+}
+/* line 50, ../sass/components/_navbar.scss */
+.panel-navbar .navbar-nav > li ul .divider {
+  background: #fefefe;
+}
+/* line 53, ../sass/components/_navbar.scss */
+.panel-navbar .navbar-nav > li ul li a:hover, .panel-navbar .navbar-nav > li ul li .navbar-nav > .active a:hover, .panel-navbar .navbar-nav > .active .navbar-nav > li ul li a:hover, .panel-navbar .navbar-nav > li ul li .navbar-nav > .active a:hover:focus, .panel-navbar .navbar-nav > .active .navbar-nav > li ul li a:hover:focus, .panel-navbar .navbar-nav > li ul li .navbar-nav > .active a:hover:active, .panel-navbar .navbar-nav > .active .navbar-nav > li ul li a:hover:active, .panel-navbar .navbar-nav > li ul li .carousel .item a:hover, .carousel .item .panel-navbar .navbar-nav > li ul li a:hover, .panel-navbar .navbar-nav > li ul li .carousel .item .media a:hover, .carousel .item .media .panel-navbar .navbar-nav > li ul li a:hover {
+  background: #fefefe;
+  color: #249991;
+}
+/* line 62, ../sass/components/_navbar.scss */
+.panel-navbar .navbar-nav .dropdown .dropdown-toggle:hover, .panel-navbar .navbar-nav .dropdown .dropdown-toggle:focus {
+  background-color: #fefefe;
+  color: #249991;
+}
+/* line 67, ../sass/components/_navbar.scss */
+.panel-navbar .navbar-nav .dropdown .dropdown-menu {
+  border-radius: 0px;
+  border-bottom: 1px solid #fefefe;
+}
+/* line 70, ../sass/components/_navbar.scss */
+.panel-navbar .navbar-nav .dropdown .dropdown-menu li a, .panel-navbar .navbar-nav > .active .dropdown .dropdown-menu li a:hover, .panel-navbar .navbar-nav > .active .dropdown .dropdown-menu li a:focus, .panel-navbar .navbar-nav > .active .dropdown .dropdown-menu li a:active, .panel-navbar .navbar-nav .dropdown .dropdown-menu li .carousel .item a:hover, .carousel .item .panel-navbar .navbar-nav .dropdown .dropdown-menu li a:hover, .panel-navbar .navbar-nav .dropdown .dropdown-menu li .carousel .item .media a:hover, .carousel .item .media .panel-navbar .navbar-nav .dropdown .dropdown-menu li a:hover {
+  color: #fefefe;
+}
+/* line 72, ../sass/components/_navbar.scss */
+.panel-navbar .navbar-nav .dropdown .dropdown-menu li a:hover, .panel-navbar .navbar-nav > .active .dropdown .dropdown-menu li a:hover, .panel-navbar .navbar-nav > .active .dropdown .dropdown-menu li a:hover:focus, .panel-navbar .navbar-nav > .active .dropdown .dropdown-menu li a:hover:active, .panel-navbar .navbar-nav .dropdown .dropdown-menu li .carousel .item a:hover, .carousel .item .panel-navbar .navbar-nav .dropdown .dropdown-menu li a:hover, .panel-navbar .navbar-nav .dropdown .dropdown-menu li .carousel .item .media a:hover, .carousel .item .media .panel-navbar .navbar-nav .dropdown .dropdown-menu li a:hover {
+  background-color: #fefefe;
+  color: #249991;
+}
+/* line 79, ../sass/components/_navbar.scss */
+.panel-navbar .navbar-collapse {
+  border: 0px;
+  box-shadow: none;
+}
+/* line 83, ../sass/components/_navbar.scss */
+.panel-navbar .navbar-form {
+  border: 0px;
+  box-shadow: none;
+  background-color: #196b65;
+}
+/* line 88, ../sass/components/_navbar.scss */
+.panel-navbar .navbar-toggle {
+  border: 0px solid #fefefe;
+  background-color: none;
+}
+/* line 92, ../sass/components/_navbar.scss */
+.panel-navbar .navbar-toggle:hover, .panel-navbar .navbar-toggle:focus {
+  background-color: #196b65;
+  border: 0px solid #249991;
+}
+/* line 96, ../sass/components/_navbar.scss */
+.panel-navbar .navbar-toggle .icon-bar {
+  background-color: #fefefe;
+}
+
+/* line 1, ../sass/components/_pagination.scss */
+.panel-pagination .pagination {
+  box-shadow: 0px 0px 2px 1px rgba(98, 98, 98, 0.26);
+  margin-top: 0px;
+  margin-bottom: 7.5%;
+}
+
+/* line 6, ../sass/components/_pagination.scss */
+.panel-pagination .pagination li a, .panel-pagination .pagination li .panel-navbar .navbar-nav > .active a:hover, .panel-navbar .navbar-nav > .active .panel-pagination .pagination li a:hover, .panel-pagination .pagination li .panel-navbar .navbar-nav > .active a:focus, .panel-navbar .navbar-nav > .active .panel-pagination .pagination li a:focus, .panel-pagination .pagination li .panel-navbar .navbar-nav > .active a:active, .panel-navbar .navbar-nav > .active .panel-pagination .pagination li a:active, .panel-pagination .pagination li .carousel .item a:hover, .carousel .item .panel-pagination .pagination li a:hover, .panel-pagination .pagination li .carousel .item .media a:hover, .carousel .item .media .panel-pagination .pagination li a:hover {
+  background: #fefefe;
+  border-radius: 0px;
+  color: #4e6e89;
+  border: 0px;
+}
+/* line 11, ../sass/components/_pagination.scss */
+.panel-pagination .pagination li a:hover, .panel-pagination .pagination li .panel-navbar .navbar-nav > .active a:hover, .panel-navbar .navbar-nav > .active .panel-pagination .pagination li a:hover, .panel-pagination .pagination li .panel-navbar .navbar-nav > .active a:hover:focus, .panel-navbar .navbar-nav > .active .panel-pagination .pagination li a:hover:focus, .panel-pagination .pagination li .panel-navbar .navbar-nav > .active a:hover:active, .panel-navbar .navbar-nav > .active .panel-pagination .pagination li a:hover:active, .panel-pagination .pagination li .carousel .item a:hover, .carousel .item .panel-pagination .pagination li a:hover, .panel-pagination .pagination li .carousel .item .media a:hover, .carousel .item .media .panel-pagination .pagination li a:hover {
+  background-color: rgba(98, 98, 98, 0.26);
+}
+
+/* line 17, ../sass/components/_pagination.scss */
+.panel-pagination .pagination li:first-child a:hover, .panel-pagination .pagination li:first-child .panel-navbar .navbar-nav > .active a:hover, .panel-navbar .navbar-nav > .active .panel-pagination .pagination li:first-child a:hover, .panel-pagination .pagination li:first-child .panel-navbar .navbar-nav > .active a:hover:focus, .panel-navbar .navbar-nav > .active .panel-pagination .pagination li:first-child a:hover:focus, .panel-pagination .pagination li:first-child .panel-navbar .navbar-nav > .active a:hover:active, .panel-navbar .navbar-nav > .active .panel-pagination .pagination li:first-child a:hover:active, .panel-pagination .pagination li:first-child .carousel .item a:hover, .carousel .item .panel-pagination .pagination li:first-child a:hover, .panel-pagination .pagination li:first-child .carousel .item .media a:hover, .carousel .item .media .panel-pagination .pagination li:first-child a:hover {
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+/* line 23, ../sass/components/_pagination.scss */
+.panel-pagination .pagination li:last-child a:hover, .panel-pagination .pagination li:last-child .panel-navbar .navbar-nav > .active a:hover, .panel-navbar .navbar-nav > .active .panel-pagination .pagination li:last-child a:hover, .panel-pagination .pagination li:last-child .panel-navbar .navbar-nav > .active a:hover:focus, .panel-navbar .navbar-nav > .active .panel-pagination .pagination li:last-child a:hover:focus, .panel-pagination .pagination li:last-child .panel-navbar .navbar-nav > .active a:hover:active, .panel-navbar .navbar-nav > .active .panel-pagination .pagination li:last-child a:hover:active, .panel-pagination .pagination li:last-child .carousel .item a:hover, .carousel .item .panel-pagination .pagination li:last-child a:hover, .panel-pagination .pagination li:last-child .carousel .item .media a:hover, .carousel .item .media .panel-pagination .pagination li:last-child a:hover {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+/* line 1, ../sass/components/_smallarticle.scss */
+.block-small-article {
+  padding-top: 0px;
+}
+/* line 3, ../sass/components/_smallarticle.scss */
+.block-small-article footer {
+  font-size: 12px;
+  color: #4e6e89;
+}
+
+/* line 8, ../sass/components/_smallarticle.scss */
+.panel-small-article {
+  adding: 0px;
+  padding: 0px;
+  border: 0px !important;
+  box-shadow: none;
+}
+/* line 13, ../sass/components/_smallarticle.scss */
+.panel-small-article .list-group {
+  border: 0px;
+  box-shadow: none;
+}
+/* line 16, ../sass/components/_smallarticle.scss */
+.panel-small-article .list-group .text-left {
+  background: #fefefe;
+  border-radius: 0px;
+  box-shadow: none;
+  border: 0px;
+}
+/* line 22, ../sass/components/_smallarticle.scss */
+.panel-small-article .list-group .small-article {
+  border: 0px;
+  background: none;
+  border-radius: 0px;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+/* line 28, ../sass/components/_smallarticle.scss */
+.panel-small-article .list-group .small-article > li {
+  height: 130px;
+  overflow: hidden;
+}
+/* line 32, ../sass/components/_smallarticle.scss */
+.panel-small-article .list-group .small-article ul li {
+  border-top: 1px solid #a7d6d3;
+  padding: 9px 5px 0px 9px;
+}
+/* line 35, ../sass/components/_smallarticle.scss */
+.panel-small-article .list-group .small-article ul li .media .media-body .media-heading a, .panel-small-article .list-group .small-article ul li .media .media-body .media-heading .panel-navbar .navbar-nav > .active a:hover, .panel-navbar .navbar-nav > .active .panel-small-article .list-group .small-article ul li .media .media-body .media-heading a:hover, .panel-small-article .list-group .small-article ul li .media .media-body .media-heading .panel-navbar .navbar-nav > .active a:focus, .panel-navbar .navbar-nav > .active .panel-small-article .list-group .small-article ul li .media .media-body .media-heading a:focus, .panel-small-article .list-group .small-article ul li .media .media-body .media-heading .panel-navbar .navbar-nav > .active a:active, .panel-navbar .navbar-nav > .active .panel-small-article .list-group .small-article ul li .media .media-body .media-heading a:active, .panel-small-article .list-group .small-article ul li .media .media-body .media-heading .carousel .item a:hover, .carousel .item .panel-small-article .list-group .small-article ul li .media .media-body .media-heading a:hover, .panel-small-article .list-group .small-article ul li .carousel .item .media .media-body .media-heading a:hover, .carousel .item .panel-small-article .list-group .small-article ul li .media .media-body .media-heading a:hover {
+  color: #249991;
+}
+
+/* line 1, ../sass/components/_sidepanel.scss */
+.panel-sidepanel {
+  border-bottom-right-radius: 0px;
+  padding-bottom: 0px;
+  background: #fefefe;
+  z-index: 11;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+/* line 8, ../sass/components/_sidepanel.scss */
+.panel-sidepanel .img-circle {
+  border: 0px;
+}
+/* line 11, ../sass/components/_sidepanel.scss */
+.panel-sidepanel .panel-default {
+  margin-bottom: 0px;
+  border-radius: 0px;
+  box-shadow: none;
+  border: 0px;
+}
+/* line 16, ../sass/components/_sidepanel.scss */
+.panel-sidepanel .panel-default .list-unstyled {
+  margin-bottom: 0px;
+}
+/* line 19, ../sass/components/_sidepanel.scss */
+.panel-sidepanel .panel-default .panel-body {
+  padding: 0px;
+}
+/* line 22, ../sass/components/_sidepanel.scss */
+.panel-sidepanel .panel-default .panel-body-content {
+  padding: 15px 0px 0px 0px;
+}
+/* line 26, ../sass/components/_sidepanel.scss */
+.panel-sidepanel .collapse .panel-body {
+  background: #fefefe;
+}
+/* line 29, ../sass/components/_sidepanel.scss */
+.panel-sidepanel .collapse .panel-body .list-group .list-group-item .lead {
+  color: #2d5373;
+}
+/* line 34, ../sass/components/_sidepanel.scss */
+.panel-sidepanel .sidepanel-footer {
+  visibility: hidden;
+  height: 0px;
+  padding: 0px;
+}
+/* line 39, ../sass/components/_sidepanel.scss */
+.panel-sidepanel .info {
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+/* line 43, ../sass/components/_sidepanel.scss */
+.panel-sidepanel .title {
+  color: white;
+  background: #1f847d;
+}
+/* line 47, ../sass/components/_sidepanel.scss */
+.panel-sidepanel .hello {
+  background: #e76b6b;
+  box-shadow: 0px 0px 100px 5px #e76b6b inset;
+}
+/* line 50, ../sass/components/_sidepanel.scss */
+.panel-sidepanel .hello .lead {
+  color: #385c7a;
+}
+/* line 54, ../sass/components/_sidepanel.scss */
+.panel-sidepanel .info {
+  padding-top: 20px;
+}
+/* line 56, ../sass/components/_sidepanel.scss */
+.panel-sidepanel .info p {
+  white-space: normal;
+}
+/* line 60, ../sass/components/_sidepanel.scss */
+.panel-sidepanel .lanjut {
+  padding: 0px 15px 0px 15px;
+}
+
+/* line 1, ../sass/components/_slider.scss */
+.carousel {
+  padding-left: 65px;
+  padding-right: 65px;
+}
+/* line 6, ../sass/components/_slider.scss */
+.carousel .carousel-control.left, .carousel .carousel-control.right {
+  width: 10px;
+  margin-top: -20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  z-index: 9;
+  background: none;
+}
+/* line 14, ../sass/components/_slider.scss */
+.carousel .carousel-control.left:hover, .carousel .carousel-control.left:focus, .carousel .carousel-control.right:hover, .carousel .carousel-control.right:focus {
+  cursor: default;
+}
+/* line 17, ../sass/components/_slider.scss */
+.carousel .carousel-control.left span, .carousel .carousel-control.right span {
+  cursor: pointer;
+}
+/* line 22, ../sass/components/_slider.scss */
+.carousel .item {
+  padding: 5px;
+  z-index: 8;
+}
+/* line 25, ../sass/components/_slider.scss */
+.carousel .item a, .carousel .item .panel-navbar .navbar-nav > .active a:hover, .panel-navbar .navbar-nav > .active .carousel .item a:hover, .carousel .item .panel-navbar .navbar-nav > .active a:focus, .panel-navbar .navbar-nav > .active .carousel .item a:focus, .carousel .item .panel-navbar .navbar-nav > .active a:active, .panel-navbar .navbar-nav > .active .carousel .item a:active, .carousel .item a:hover, .carousel .item .media a:hover {
+  color: #4e6e89;
+  text-decoration: none;
+}
+/* line 34, ../sass/components/_slider.scss */
+.carousel .item .media .media-body .media-heading {
+  color: #193751;
+}
+/* line 37, ../sass/components/_slider.scss */
+.carousel .item .media .media-body p {
+  color: #385c7a;
+}
+/* line 40, ../sass/components/_slider.scss */
+.carousel .item .media .media-body ul li {
+  max-height: 80px;
+  overflow: hidden;
+}
+/* line 45, ../sass/components/_slider.scss */
+.carousel .item .media a, .carousel .item .media .panel-navbar .navbar-nav > .active a:hover, .panel-navbar .navbar-nav > .active .carousel .item .media a:hover, .carousel .item .media .panel-navbar .navbar-nav > .active a:focus, .panel-navbar .navbar-nav > .active .carousel .item .media a:focus, .carousel .item .media .panel-navbar .navbar-nav > .active a:active, .panel-navbar .navbar-nav > .active .carousel .item .media a:active, .carousel .item .media a:hover, .carousel .item .media a:hover {
+  color: #39a39c;
+}
+/* line 52, ../sass/components/_slider.scss */
+.carousel .item .panel-default .panel-body {
+  background: #fefefe;
+  padding: 15px;
+}
+
+/* line 1, ../sass/components/_badge.scss */
+.badge {
+  padding: 4px 8px 4px 8px;
+  border-radius: 2px;
+  font-size: 14px;
+  margin: 2px 0px 2px 0px;
+  box-shadow: 2px 2px 0.1px 0.1px rgba(183, 183, 183, 0.371);
+}
+
+/* line 9, ../sass/components/_badge.scss */
+.badge-1 {
+  background-color: #2d99d4;
+}
+
+/* line 9, ../sass/components/_badge.scss */
+.badge-2 {
+  background-color: #f9690e;
+}
+
+/* line 9, ../sass/components/_badge.scss */
+.badge-3 {
+  background-color: #ae1dc9;
+}
+
+/* line 9, ../sass/components/_badge.scss */
+.badge-4 {
+  background-color: #1fc17d;
+}
+
+/* line 9, ../sass/components/_badge.scss */
+.badge-5 {
+  background-color: #e85143;
+}
+
+/* line 9, ../sass/components/_badge.scss */
+.badge-6 {
+  background-color: #4a4f53;
+}
+
+/* line 9, ../sass/components/_badge.scss */
+.badge-7 {
+  background-color: #f4d03f;
+}
+
+/* line 9, ../sass/components/_badge.scss */
+.badge-8 {
+  background-color: #1d689f;
+}
+
+/* line 9, ../sass/components/_badge.scss */
+.badge-9 {
+  background-color: #0e761a;
+}
+
+/* line 9, ../sass/components/_badge.scss */
+.badge-10 {
+  background-color: #9b9b15;
+}
+
+/* line 9, ../sass/components/_badge.scss */
+.badge-11 {
+  background-color: #777e86;
+}
+
+@media (min-width: 0px) {
+  /* line 2, ../sass/base/_media.scss */
+  .list-header-collapse-xsmall {
+    visibility: collapse;
+    max-height: 0px;
+    padding: 0px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 9, ../sass/base/_media.scss */
+  .panel-navbar .navbar-form {
+    background: none;
+  }
+
+  /* line 12, ../sass/base/_media.scss */
+  .list-header-collapse-xsmall {
+    visibility: visible;
+    max-height: none;
+    padding: 10px 15px 10px 15px;
+  }
+
+  /* line 17, ../sass/base/_media.scss */
+  .list-header-collapse-small {
+    visibility: collapse;
+    max-height: none;
+  }
+
+  /* line 21, ../sass/base/_media.scss */
+  .panel-navbar {
+    margin-top: 0px;
+  }
+
+  /* line 25, ../sass/base/_media.scss */
+  .panel-tag,
+  .panel-ad {
+    visibility: collapse;
+    max-height: 0px;
+  }
+
+  /* line 29, ../sass/base/_media.scss */
+  .panel-konten .panel-default li img {
+    visibility: visible;
+    height: inherit;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 35, ../sass/base/_media.scss */
+  .navbar-left {
+    margin-left: 34.5%;
+  }
+
+  /* line 38, ../sass/base/_media.scss */
+  .menu-collapse {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+  }
+
+  /* line 43, ../sass/base/_media.scss */
+  .panel-sidepanel {
+    box-shadow: 0px 0px 2px 0.3px rgba(152, 152, 152, 0.49);
+  }
+
+  /* line 46, ../sass/base/_media.scss */
+  .panel-collapse {
+    visibility: visible;
+    height: inherit;
+  }
+
+  /* line 50, ../sass/base/_media.scss */
+  .sidepanel-footer {
+    visibility: visible !important;
+    height: inherit !important;
+    padding: 15px !important;
+  }
+
+  /* line 55, ../sass/base/_media.scss */
+  .panel-navbar {
+    width: 67%;
+  }
+
+  /* line 60, ../sass/base/_media.scss */
+  .panel-small-article,
+  .panel-tag,
+  .panel-ad {
+    visibility: visible;
+    max-height: inherit;
+  }
+
+  /* line 65, ../sass/base/_media.scss */
+  .panel-sidepanel,
+  .panel-navbar {
+    position: fixed;
+  }
+
+  /* line 68, ../sass/base/_media.scss */
+  .panel-konten {
+    padding-top: 8%;
+  }
+
+  /* line 71, ../sass/base/_media.scss */
+  .panel-footer-mobile {
+    visibility: collapse;
+  }
+
+  /* line 74, ../sass/base/_media.scss */
+  .panel-footer {
+    height: inherit;
+    visibility: visible;
+  }
+}

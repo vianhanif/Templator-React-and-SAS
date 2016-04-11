@@ -1,0 +1,12 @@
+.badge {
+  padding: 4px 8px 4px 8px;
+  border-radius: 2px;
+  font-size: 14px;
+  margin: 2px 0px 2px 0px;
+  box-shadow: 2px 2px .1px .1px $tag-shadow;
+}
+@for $type from 1 through length($badge) {
+  .badge-#{$type} {
+    background-color: nth($badge, $type);
+  }
+}

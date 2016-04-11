@@ -1,0 +1,100 @@
+.full-nav {
+  min-width: 100%;
+}
+.panel-navbar {
+  margin-top: 0px;
+  background: $navbar-background;
+  z-index: 10;
+  padding-left: 0px;
+  padding-right: 0px;
+  border: 0px;
+  border-radius: 0px;
+  box-shadow: 0px 0px 3px 1px $navbar-shadow;
+  .navbar-default {
+    z-index: 10;
+  }
+  .navbar-brand {
+    color: $navbar-nav-li-a-color;
+    &:hover {
+      @extend .navbar-brand;
+    }
+  }
+  .navbar-float-left {
+    margin-left: -15px;
+  }
+  .navbar-nav {
+    > li > a {
+      font-size: 15px;
+      color: $navbar-nav-li-a-color;
+      &:hover,
+      &:active,
+      &:focus {
+        background: $navbar-nav-li-a-hover-background;
+        color: $navbar-nav-li-a-hover-color;
+      }
+    }
+    > .active a {
+      background: $navbar-nav-active-a-background;
+      color: $navbar-nav-active-a-color;
+      font-weight: bold;
+      &:hover,
+      &:focus,
+      &:active {
+        @extend a;
+      }
+    }
+    > li ul {
+      border: 0px;
+      background: $navbar-nav-li-ul-background;
+      box-shadow: 0px 0px 2px 1px nth($theme, 5);
+      .divider {
+        background: $navbar-nav-li-ul-divider-background;
+      }
+      li a:hover {
+        background: $navbar-nav-li-ul-li-a-hover-background;
+        color: $navbar-nav-li-ul-li-a-hover-color;
+      }
+    }
+  }
+  .navbar-nav .dropdown {
+    .dropdown-toggle {
+      &:hover,
+      &:focus {
+        background-color: $navbar-collapse-dropdown-toggle-background;
+        color: $navbar-collapse-dropdown-toggle-color;
+      }
+    }
+    .dropdown-menu {
+      border-radius: 0px;
+      border-bottom: 1px solid $navbar-collapse-dropdown-menu-lineborder;
+      li a {
+        color: $navbar-collapse-dropdown-menu-color;
+        &:hover {
+          background-color: $navbar-collapse-dropdown-menu-hover-background;
+          color: $navbar-collapse-dropdown-menu-hover-color;
+        }
+      }
+    }
+  }
+  .navbar-collapse {
+    border: 0px;
+    box-shadow: none;
+  }
+  .navbar-form {
+    border: 0px;
+    box-shadow: none;
+    background-color: $navbar-form-background;
+  }
+  .navbar-toggle {
+    border: 0px solid $navbar-toggle-border;
+    background-color: none;
+    &:hover,
+    &:focus {
+      background-color: $navbar-toggle-hover-background;
+      border: 0px solid $navbar-toggle-hover-color;
+    }
+    .icon-bar {
+      background-color: $navbar-toggle-icon;
+    }
+  }
+}

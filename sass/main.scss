@@ -1,0 +1,17 @@
+//config
+@import 'config';
+//base 
+@import 'base/mixins';
+@import 'base/variables';
+@import 'base/base';
+//components
+@import 'components/footer';
+@import 'components/forms';
+@import 'components/article';
+@import 'components/navbar';
+@import 'components/pagination';
+@import 'components/smallarticle';
+@import 'components/sidepanel';
+@import 'components/slider';
+@import 'components/badge';
+@import 'base/media';

@@ -1,0 +1,57 @@
+.carousel {
+  padding-left: 65px;
+  padding-right: 65px;
+  .carousel-control {
+    &.left,
+    &.right {
+      width: 10px;
+      margin-top: -20px;
+      padding-left: 40px;
+      padding-right: 40px;
+      z-index: 9;
+      background: none;
+      &:hover,
+      &:focus {
+        cursor: default;
+      }
+      span {
+        cursor: pointer;
+      }
+    }
+  }
+  .item {
+    padding: 5px;
+    z-index: 8;
+    a {
+      color: $slider-item-a-color;
+      text-decoration: none;
+      &:hover {
+        @extend a;
+      }
+    }
+    .media {
+      .media-body {
+        .media-heading {
+          color: $slider-media-heading-color;
+        }
+        p {
+          color: $slider-media-body-p;
+        }
+        ul li {
+          max-height: $slider-media-text-max-height;
+          overflow: hidden;
+        }
+      }
+      a {
+        color: $slider-media-a-color;
+        &:hover {
+          @extend a;
+        }
+      }
+    }
+    .panel-default .panel-body {
+      background: $slider-item-body-background;
+      padding: 15px;
+    }
+  }
+}

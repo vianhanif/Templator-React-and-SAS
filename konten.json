@@ -1,0 +1,224 @@
+{
+  "page": {
+    "active": "Konten",
+    "navbarCollapse": false,
+    "navbarRight": true,
+    "navbarLeft": true,
+    "navbarForm": true
+  },
+  "tags": [
+    {},
+    {
+      "title": "Photoshop",
+      "link": "#",
+      "number": "1"
+      },
+    {
+      "title": "Illustrator",
+      "link": "#",
+      "number": "2"
+      },
+    {
+      "title": "Anime",
+      "link": "#",
+      "number": "3"
+      },
+    {
+      "title": "PHP",
+      "link": "#",
+      "number": "4"
+      },
+    {
+      "title": "Bootstrap",
+      "link": "#",
+      "number": "5"
+      },
+    {
+      "title": "Movies",
+      "link": "#",
+      "number": "7"
+      },
+    {
+      "title": "Layout Design",
+      "link": "#",
+      "number": "8"
+      },
+    {
+      "title": "HTML . CSS",
+      "link": "#",
+      "number": "9"
+      },
+    {
+      "title": "Java",
+      "link": "#",
+      "number": "6"
+      },
+    {
+      "title": "Javascript",
+      "link": "#",
+      "number": "10"
+      },
+    {
+      "title": "Varities",
+      "link": "#",
+      "number": "11"
+      }
+    ],
+  "menus": {
+    "right": [
+      [["What is Codime ?", "#"]]
+    ],
+    "left": [
+      [["Home", "index.html"]],
+      [
+        ["Development", "#"],
+        ["HTML . CSS", "#"],
+        ["Javascript", "#"],
+        ["PHP", "#"],
+        ["Java", "#"],
+        ["Bootstrap", "#"]
+      ],
+      [
+        ["Design ", "#"],
+        ["Photoshop", "#"],
+        ["Illustrator", "#"],
+        ["Layout Design", "#"]
+      ],
+      [
+        ["TVs ", "#"],
+        ["Anime", "#"],
+        ["Movies", "#"],
+        ["Varities", "#"]
+      ]
+    ]
+  },
+  "article": {
+    "type": "full",
+    "data": [
+      {
+        "title": "Artikel 1",
+        "tags": [{
+          "title": "Photoshop",
+          "link": "#",
+          "type": "1"
+          }, {
+          "title": "Illustrator",
+          "link": "#",
+          "type": "2"
+          }],
+        "source": "Source 1",
+        "link": "konten.html",
+        "content": {
+          "image": "image/sample.png",
+          "video": "",
+          "paragraph": [
+              "Varias cernantur ad praetermissum. Commodo elit singulis. Excepteur ab anim,ultos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siingeniis est iis ipsum praesentibus et fabulas lorem amet consequat ipsum,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siquorum tempor concursionibus. Est aliqua voluptate laboris de incurreret hic.",
+            "Varias cernantur ad praetermissum. Commodo elit singulis. Excepteur ab anim,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siingeniis est iis ipsum praesentibus et fabulas lorem amet consequat ipsum,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siquorum tempor concursionibus. Est aliqua voluptate laboris de incurreret hic.",
+            "Varias cernantur ad praetermissum. Commodo elit singulis. Excepteur ab anim,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siingeniis est iis ipsum praesentibus et fabulas lorem amet consequat ipsum,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siquorum tempor concursionibus. Est aliqua voluptate laboris de incurreret hic.",
+            "Varias cernantur ad praetermissum. Commodo elit singulis. Excepteur ab anim,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siingeniis est iis ipsum praesentibus et fabulas lorem amet consequat ipsum,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siquorum tempor concursionibus. Est aliqua voluptate laboris de incurreret hic."
+              ]
+        }
+      }
+      ]
+  },
+  "smallarticles": {
+    "data": [
+      {
+        "title": "Title 1",
+        "tags": [{
+          "title": "Photoshop",
+          "link": "#",
+          "type": "1"
+          }, {
+          "title": "Illustrator",
+          "link": "#",
+          "type": "2"
+          }],
+        "source": "Author 1",
+        "link": "konten.html",
+        "content": {
+          "image": "image/sample.png",
+          "video": "",
+          "paragraph": [
+              "Varias cernantur ad praetermissum. Commodo elit singulis. Excepteur ab anim,ultos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siingeniis est iis ipsum praesentibus et fabulas lorem amet consequat ipsum,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siquorum tempor concursionibus. Est aliqua voluptate laboris de incurreret hic.",
+            "Varias cernantur ad praetermissum. Commodo elit singulis. Excepteur ab anim,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siingeniis est iis ipsum praesentibus et fabulas lorem amet consequat ipsum,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siquorum tempor concursionibus. Est aliqua voluptate laboris de incurreret hic.",
+            "Varias cernantur ad praetermissum. Commodo elit singulis. Excepteur ab anim,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siingeniis est iis ipsum praesentibus et fabulas lorem amet consequat ipsum,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siquorum tempor concursionibus. Est aliqua voluptate laboris de incurreret hic.",
+            "Varias cernantur ad praetermissum. Commodo elit singulis. Excepteur ab anim,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siingeniis est iis ipsum praesentibus et fabulas lorem amet consequat ipsum,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siquorum tempor concursionibus. Est aliqua voluptate laboris de incurreret hic."
+              ]
+        }
+      },
+      {
+        "title": "Title 2",
+        "tags": [{
+          "title": "Anime",
+          "link": "#",
+          "type": "1"
+          }, {
+          "title": "Illustrator",
+          "link": "#",
+          "type": "2"
+          }],
+        "source": "Author 2",
+        "link": "konten.html",
+        "content": {
+          "image": "image/sample.png",
+          "video": "",
+          "paragraph": [
+              "Varias cernantur ad praetermissum. Commodo elit singulis. Excepteur ab anim,ultos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siingeniis est iis ipsum praesentibus et fabulas lorem amet consequat ipsum,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siquorum tempor concursionibus. Est aliqua voluptate laboris de incurreret hic.",
+            "Varias cernantur ad praetermissum. Commodo elit singulis. Excepteur ab anim,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siingeniis est iis ipsum praesentibus et fabulas lorem amet consequat ipsum,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siquorum tempor concursionibus. Est aliqua voluptate laboris de incurreret hic.",
+            "Varias cernantur ad praetermissum. Commodo elit singulis. Excepteur ab anim,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siingeniis est iis ipsum praesentibus et fabulas lorem amet consequat ipsum,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siquorum tempor concursionibus. Est aliqua voluptate laboris de incurreret hic.",
+            "Varias cernantur ad praetermissum. Commodo elit singulis. Excepteur ab anim,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siingeniis est iis ipsum praesentibus et fabulas lorem amet consequat ipsum,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siquorum tempor concursionibus. Est aliqua voluptate laboris de incurreret hic."
+              ]
+        }
+      },
+      {
+        "title": "Title 3",
+        "tags": [{
+          "title": "Photoshop",
+          "link": "#",
+          "type": "1"
+          }, {
+          "title": "Illustrator",
+          "link": "#",
+          "type": "2"
+          }],
+        "source": "Author 1",
+        "link": "konten.html",
+        "content": {
+          "image": "image/sample.png",
+          "video": "",
+          "paragraph": [
+              "Varias cernantur ad praetermissum. Commodo elit singulis. Excepteur ab anim,ultos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siingeniis est iis ipsum praesentibus et fabulas lorem amet consequat ipsum,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siquorum tempor concursionibus. Est aliqua voluptate laboris de incurreret hic.",
+            "Varias cernantur ad praetermissum. Commodo elit singulis. Excepteur ab anim,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siingeniis est iis ipsum praesentibus et fabulas lorem amet consequat ipsum,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siquorum tempor concursionibus. Est aliqua voluptate laboris de incurreret hic.",
+            "Varias cernantur ad praetermissum. Commodo elit singulis. Excepteur ab anim,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siingeniis est iis ipsum praesentibus et fabulas lorem amet consequat ipsum,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siquorum tempor concursionibus. Est aliqua voluptate laboris de incurreret hic.",
+            "Varias cernantur ad praetermissum. Commodo elit singulis. Excepteur ab anim,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siingeniis est iis ipsum praesentibus et fabulas lorem amet consequat ipsum,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siquorum tempor concursionibus. Est aliqua voluptate laboris de incurreret hic."
+              ]
+        }
+      },
+      {
+        "title": "Title 4",
+        "tags": [{
+          "title": "Photoshop",
+          "link": "#",
+          "type": "1"
+          }, {
+          "title": "Illustrator",
+          "link": "#",
+          "type": "2"
+          }],
+        "source": "Author 1",
+        "link": "konten.html",
+        "content": {
+          "image": "image/sample.png",
+          "video": "",
+          "paragraph": [
+              "Varias cernantur ad praetermissum. Commodo elit singulis. Excepteur ab anim,ultos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siingeniis est iis ipsum praesentibus et fabulas lorem amet consequat ipsum,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siquorum tempor concursionibus. Est aliqua voluptate laboris de incurreret hic.",
+            "Varias cernantur ad praetermissum. Commodo elit singulis. Excepteur ab anim,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siingeniis est iis ipsum praesentibus et fabulas lorem amet consequat ipsum,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siquorum tempor concursionibus. Est aliqua voluptate laboris de incurreret hic.",
+            "Varias cernantur ad praetermissum. Commodo elit singulis. Excepteur ab anim,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siingeniis est iis ipsum praesentibus et fabulas lorem amet consequat ipsum,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siquorum tempor concursionibus. Est aliqua voluptate laboris de incurreret hic.",
+            "Varias cernantur ad praetermissum. Commodo elit singulis. Excepteur ab anim,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siingeniis est iis ipsum praesentibus et fabulas lorem amet consequat ipsum,multos mandaremus ut distinguantur ad an qui velit admodum, minim cupidatatfidelissimae ad laboris sint arbitror, eram singulis quo fore malis, qui quofirmissimum, admodum anim anim sed irure. Aliquip varias ullamco ullamco, utdolor laborum se vidisse multos mandaremus, o qui aute esse sunt. Eiusmod siquorum tempor concursionibus. Est aliqua voluptate laboris de incurreret hic."
+              ]
+        }
+      }
+      ]
+  }
+}
