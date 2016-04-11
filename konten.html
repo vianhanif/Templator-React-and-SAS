@@ -21,7 +21,7 @@
   <div id="app"></div>
   <script type="text/javascript">
     var app = React.createElement(Konten, {
-      source: "http://127.0.0.1:49594/konten.json"
+      source: window.location.origin + "/konten.json"
     });
     React.render(app, document.getElementById("app"));
 

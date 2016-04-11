@@ -6,14 +6,6 @@ Example of using React to seperate page component into a single template class w
 - set theme colorings with `config.scss`
 
 ### Note :
-to get the json source, make sure your hostname added to `index.html` and `konten.html` like this
-```
-    var app = React.createElement(Index, {
-      source: "http://127.0.0.1:63849/index.json"
-    });
-    React.render(app, document.getElementById("app"));
-```
-
 I'm using `compressjs.sh` to bundle all component into three files (`built.min.js`, `index.min.js`, `konten.min.js`).
 To use them :
 - run `./compressjs.sh 1 js/built.min.js` to bundle the components
