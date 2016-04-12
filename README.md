@@ -1,5 +1,5 @@
 # Templator-React-and-SASS
-Example of using React to seperate page component into a single template class with configurable colorings. Well, this is my first React project. I'm using Scout and [autobabel](https://github.com/anIddan/autobabel) in Brackets editor. Feel free to use. Here is my [demo](http://codime-vianhanif.rhcloud.com/)
+Example of using React to seperate page component into a single template class with configurable colorings. Well, this is my first React project. I'm using Scout and [autobabel](https://github.com/anIddan/autobabel) in Brackets editor. Feel free to use. Here is my [demo](http://codime-vianhanif.rhcloud.com/).
 
 ## Features :
 - set menus, navbar position and articles right from json (`index.json` and `konten.json`)
